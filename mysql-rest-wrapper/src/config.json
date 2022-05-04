@@ -1,0 +1,15 @@
+{
+	"port": 8080,
+	"servers": {
+		"SERVER_NAME": {
+			"key": "AUTH KEY FOR THE HTTP REQUEST",
+
+			"host": "MySQL database host",
+			"port": 3306,
+			"user": "MySQL database username",
+			"password": "MySQL database password",
+			"database": "MySQL database database",
+			"keepAlive": 1000
+		}
+	}
+}
