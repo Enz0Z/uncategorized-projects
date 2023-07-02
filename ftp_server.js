@@ -1,6 +1,8 @@
 const ftpd = require('ftpd');
 const PORT = 21;
-const USERS = [];
+const USERS = [
+    { username: 'USERNAME', password: 'PASSWORD', directory: 'PATH' },
+];
 
 const server = new ftpd.FtpServer('0.0.0.0', {
     getInitialCwd: function () {
